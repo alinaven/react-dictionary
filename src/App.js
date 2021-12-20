@@ -5,11 +5,8 @@ export default function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <a className="btn btn-primary" href="#">
-          Hello{" "}
-        </a>
         <p>
-          Hosten on{" "}
+          Hosted on{" "}
           <a
             className="github-link"
             href="https://github.com/alinaven/react-dictionary"
