@@ -8,6 +8,15 @@ export default function App() {
         <a className="btn btn-primary" href="#">
           Hello{" "}
         </a>
+        <p>
+          Hosten on{" "}
+          <a
+            className="github-link"
+            href="https://github.com/alinaven/react-dictionary"
+          >
+            GitHub
+          </a>
+        </p>
       </header>
     </div>
   );
