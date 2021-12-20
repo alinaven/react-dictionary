@@ -24,16 +24,34 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
-        <input
-          type="search"
-          autoFocus={true}
-          placeholder="Look up a word"
-          onChange={handleKeywordChange}
-        ></input>
-        <input type="submit" value="search"></input>
-      </form>
-      <Results results={results} />
+      <div className="background-box p-2 pt-4 pb-4">
+        <form form id="search-form" onSubmit={search}>
+          <div className="input-group">
+            <input
+              type="search"
+              className="form-control"
+              autoFocus={true}
+              placeholder="Look up a word"
+              onChange={handleKeywordChange}
+            ></input>
+            <div className="input-group-append">
+              <button className="btn btn-outline-secondary" type="submit">
+                🔎 Search
+              </button>
+            </div>
+          </div>
+        </form>
+        <Results results={results} />
+        <footer>
+          👩🏼‍💻 Coded by Alina Vennes, hosted on{" "}
+          <a
+            className="github-link"
+            href="https://github.com/alinaven/react-dictionary"
+          >
+            GitHub
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }

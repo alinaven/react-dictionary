@@ -1,0 +1,14 @@
+.meaning {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(248, 219, 219) 0%,
+    rgb(229, 248, 250) 90%
+  );
+  background-size: fixed;
+  box-shadow: 5px 5px 10px grey;
+}
+
+h2 {
+  margin: 10px;
+  padding: 10px;
+}

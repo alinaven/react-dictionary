@@ -1,0 +1,8 @@
+.Results .word {
+  font-size: 18px;
+  font-family: Roboto;
+}
+
+.Results .keyword {
+  text-transform: capitalize;
+}
