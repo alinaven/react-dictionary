@@ -1,20 +1,21 @@
 import "./App.css";
-
+import Dictionary from "./Dictionary";
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="container">
         <h1> Dictionary </h1>
-        <p>
-          Hosted on{" "}
+        <Dictionary />
+        <footer>
+          Codes by Alina Vennes, hosted on{" "}
           <a
             className="github-link"
             href="https://github.com/alinaven/react-dictionary"
           >
             GitHub
           </a>
-        </p>
-      </header>
+        </footer>
+      </div>
     </div>
   );
 }
