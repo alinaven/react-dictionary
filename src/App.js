@@ -4,7 +4,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1> Dictionary </h1>
+        <span className="header"> Dictionary </span>
         <Dictionary defaultKeyword="forest" />
       </div>
     </div>

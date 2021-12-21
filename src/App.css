@@ -12,12 +12,13 @@ body {
   background-size: 100%;
 }
 
-h1 {
+.header {
+  display: block;
   text-align: center;
-  padding: 20px;
-  padding-top: 30px;
-  font-family: "PT Mono";
-  font-weight: bold;
+  padding: 10px;
+  font-family: "Asap";
+  font-weight: 800;
+  font-size: 60px;
 }
 
 form {

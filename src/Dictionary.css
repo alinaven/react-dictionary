@@ -21,7 +21,8 @@
   border: 1px solid #ddd;
 }
 
-.Dictionary .hint {
+.hint {
   font-size: 10px;
-  margin: 12px;
+  margin: 8px;
+  text-align: left;
 }

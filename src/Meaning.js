@@ -21,9 +21,9 @@ export default function Meaning(props) {
                     <span className="example">
                       example - "{definition.example}"
                     </span>
-                    <hr />
                     <Synonyms synonyms={definition.synonyms} />
                   </p>
+                  {index < 1 && <hr className="definition-division" />}
                 </div>
               );
             } else {

@@ -49,8 +49,11 @@ export default function Dictionary(props) {
                 </button>
               </div>
             </div>
+            <div className="hint">
+              suggested words: sunset, plants, coffee,..
+            </div>
           </form>
-          <div className="hint">suggested words: sunset, plants, coffee,..</div>
+
           <Results results={results} />
           <footer>
             👩🏼‍💻 Coded by Alina Vennes, hosted on{" "}

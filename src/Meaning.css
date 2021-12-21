@@ -1,5 +1,4 @@
 .meaning {
-  background-color: lightgrey;
   padding: 10px;
   margin: 10px;
 }
@@ -11,4 +10,9 @@
 .example {
   font-size: 13px;
   font-style: italic;
+}
+
+hr.definition-division {
+  border: 2px solid black;
+  border-radius: 5px;
 }
