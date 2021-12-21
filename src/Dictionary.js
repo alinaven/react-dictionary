@@ -73,12 +73,20 @@ export default function Dictionary(props) {
           <Photos photos={photos} />
           <hr />
           <footer>
-            👩🏼‍💻 Coded by Alina Vennes, hosted on{" "}
+            👩🏼‍💻{" "}
             <a
               className="github-link"
               href="https://github.com/alinaven/react-dictionary"
             >
-              GitHub
+              Open-source code
+            </a>{" "}
+            by Alina Vennes, hosted on{" "}
+            <a
+              href="https://app.netlify.com/"
+              target="_blank"
+              rel="nonreferrer"
+            >
+              Netlify
             </a>
           </footer>
         </div>
