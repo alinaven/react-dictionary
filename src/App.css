@@ -17,7 +17,7 @@ body {
   font-family: "Asap";
   font-weight: 800;
   font-size: 40px;
-  color: #155e63;
+  color: #072c20;
   font-style: italic;
 }
 
@@ -37,7 +37,7 @@ footer {
 }
 
 .background-box {
-  background-color: #76b39d;
+  background-color: #2e745a81;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 10px;

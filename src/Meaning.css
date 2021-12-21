@@ -7,6 +7,7 @@
   font-size: 22px;
   text-align: left;
   margin-left: 18px;
+  color: #155e63;
 }
 
 .example {
@@ -15,6 +16,6 @@
 }
 
 hr.definition-division {
-  border: 2px solid black;
+  border: 2px solid #155e63;
   border-radius: 5px;
 }

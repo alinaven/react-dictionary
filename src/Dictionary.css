@@ -17,13 +17,17 @@
   font-size: 11px;
   margin: 5px;
   text-align: left;
+  color: #fdfafa;
 }
 
 .prompt {
   margin-left: 20px;
-  padding-bottom: 0px;
+  padding-bottom: 5px;
   margin-top: 20px;
-  font-size: 14px;
+  font-size: 18px;
+  text-align: center;
+  color: #f0eeee;
+  font-weight: bold;
 }
 
 form {

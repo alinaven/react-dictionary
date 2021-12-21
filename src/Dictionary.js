@@ -45,7 +45,7 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <div className="background-box p-2 pt-4 pb-4">
-          <div className="header"> Dictionary </div>
+          <div className="header"> / DICTIONARY / </div>
           <hr />
           <div className="prompt">What word do you want to look up?</div>
           <form id="search-form" onSubmit={handleSubmit}>
@@ -64,7 +64,7 @@ export default function Dictionary(props) {
               </div>
             </div>
             <div className="hint">
-              suggested words: sunset, plants, coffee,..
+              Suggested words: Sunset, Plants, Coffee,..
             </div>
           </form>
           <hr />
