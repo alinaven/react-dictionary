@@ -1,13 +1,10 @@
 .App {
   text-align: left;
+  font-family: "ASAP";
 }
 
 body {
-  background: radial-gradient(
-    circle at 10% 20%,
-    rgb(248, 219, 219) 0%,
-    rgb(229, 248, 250) 90%
-  );
+  background: radial-gradient(circle at 10% 20%, #f9f8eb 0%, #f9f8eb 90%);
 
   background-size: 100%;
 }
@@ -15,10 +12,11 @@ body {
 .header {
   display: block;
   text-align: center;
-  padding: 10px;
   font-family: "Asap";
   font-weight: 800;
-  font-size: 60px;
+  font-size: 40px;
+  color: #155e63;
+  font-style: italic;
 }
 
 form {
@@ -37,7 +35,7 @@ footer {
 }
 
 .background-box {
-  background-color: rgba(255, 255, 255, 0.816);
+  background-color: #76b39d;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 10px;

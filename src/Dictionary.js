@@ -34,13 +34,16 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <div className="background-box p-2 pt-4 pb-4">
+          <div className="header"> Dictionary </div>
+          <hr />
+          <div className="prompt">What word do you want to look up?</div>
           <form id="search-form" onSubmit={handleSubmit}>
             <div className="input-group">
               <input
                 type="search"
                 className="form-control"
                 autoFocus={true}
-                placeholder="Look up a word"
+                placeholder={props.defaultKeyword}
                 onChange={handleKeywordChange}
               ></input>
               <div className="input-group-append">
@@ -53,7 +56,7 @@ export default function Dictionary(props) {
               suggested words: sunset, plants, coffee,..
             </div>
           </form>
-
+          <hr />
           <Results results={results} />
           <footer>
             👩🏼‍💻 Coded by Alina Vennes, hosted on{" "}

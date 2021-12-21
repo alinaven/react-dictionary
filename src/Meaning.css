@@ -4,7 +4,9 @@
 }
 
 .part-of-speech {
-  font-size: 18px;
+  font-size: 22px;
+  text-align: left;
+  margin-left: 18px;
 }
 
 .example {
