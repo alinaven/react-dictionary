@@ -1,6 +1,8 @@
 .App {
   text-align: left;
   font-family: "ASAP";
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 body {
