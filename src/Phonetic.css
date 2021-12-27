@@ -12,3 +12,7 @@ a.phonetic:hover {
   background: rgba(255, 255, 255, 0.5);
   color: black;
 }
+
+.phonetic-info {
+  margin-left: 5px;
+}

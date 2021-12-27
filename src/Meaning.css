@@ -1,14 +1,16 @@
 .meaning {
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .part-of-speech {
-  font-size: 20px;
+  font-size: 22px;
   text-align: left;
   color: #00a19d;
   font-weight: bold;
   font-family: "PT Mono";
+  line-height: 30px;
 }
 
 .example {

@@ -9,6 +9,7 @@ export default function Meaning(props) {
         <div className="row">
           <div className="part-of-speech">{props.meaning.partOfSpeech}</div>
           <br />
+          <br />
         </div>
         <div className="row">
           <div className="col-10 offset-2 definition">
@@ -17,7 +18,7 @@ export default function Meaning(props) {
                 return (
                   <div key={index}>
                     <section>
-                      <strong>/ definition {index + 1} / </strong>
+                      <strong>DEFINITION {index + 1} / </strong>
                       {definition.definition}
                       <hr />
                       <span className="example">
@@ -26,7 +27,6 @@ export default function Meaning(props) {
                       <Synonyms synonyms={definition.synonyms} />
                     </section>
                     {index < 1 && <hr className="definition-division" />}
-                    <br />
                   </div>
                 );
               } else {
