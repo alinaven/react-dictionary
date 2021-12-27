@@ -1,13 +1,14 @@
 .meaning {
-  padding: 10px;
-  margin: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .part-of-speech {
-  font-size: 22px;
+  font-size: 20px;
   text-align: left;
-  margin-left: 18px;
-  color: #155e63;
+  color: #00a19d;
+  font-weight: bold;
+  font-family: "PT Mono";
 }
 
 .example {
@@ -18,4 +19,8 @@
 hr.definition-division {
   border: 2px solid #155e63;
   border-radius: 5px;
+}
+
+.definition {
+  font-size: 14px;
 }

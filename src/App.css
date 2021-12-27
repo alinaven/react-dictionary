@@ -1,12 +1,12 @@
 .App {
   text-align: left;
-  font-family: "ASAP";
+  font-family: "PT Mono";
   max-width: 800px;
   margin: 0 auto;
 }
 
 body {
-  background: radial-gradient(circle at 10% 20%, #f9f8eb 0%, #f9f8eb 90%);
+  background: radial-gradient(circle at 10% 20%, #00a19d 0%, #13b6b3 90%);
 
   background-size: 100%;
 }
@@ -14,10 +14,10 @@ body {
 .header {
   display: block;
   text-align: center;
-  font-family: "Asap";
+  font-family: "Knewave";
   font-weight: 800;
   font-size: 40px;
-  color: #072c20;
+  color: #ffb344;
   font-style: italic;
 }
 
@@ -37,7 +37,7 @@ footer {
 }
 
 .background-box {
-  background-color: #2e745a81;
+  background-color: #effcf9;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 10px;

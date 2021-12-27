@@ -1,8 +1,10 @@
 .meaning {
-  background-color: #eae7e7;
+  background-color: #f9fdfc;
   background-size: fixed;
-  box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.514);
+  box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.2);
   border-radius: 8px;
+  font-family: "PT Mono";
+  padding-bottom: 10px;
 }
 
 .Dictionary a {
@@ -10,14 +12,15 @@
 }
 
 .Dictionary .input {
-  border: 1px solid #ddd;
+  border: 1px solid #fffbf1;
 }
 
 .hint {
   font-size: 11px;
   margin: 5px;
   text-align: left;
-  color: #fdfafa;
+  color: #00a19d;
+  font-family: "PT Mono";
 }
 
 .prompt {
@@ -26,8 +29,9 @@
   margin-top: 20px;
   font-size: 18px;
   text-align: center;
-  color: #f0eeee;
+  color: #00a19d;
   font-weight: bold;
+  font-family: "PT Mono";
 }
 
 form {

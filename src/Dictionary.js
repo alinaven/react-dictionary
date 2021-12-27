@@ -44,7 +44,7 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <div className="background-box p-2 pt-4 pb-4">
+        <div className="background-box p-1 pt-4 pb-4">
           <div className="header"> / DICTIONARY / </div>
           <hr />
           <div className="prompt">What word do you want to look up?</div>
